@@ -1,0 +1,215 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <title>Contact List and Registration</title>  
+    <style>
+        /* External CSS for the Contact List and Registration HTML page */
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 20px;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text color for readability */
+        }
+
+        /* Styling for Headers */
+        h2 {
+            color: #3498db; /* Blue color for headers */
+            border-bottom: 2px solid #2980b9; /* Darker blue border */
+            padding-bottom: 10px;
+        }
+
+        /* Ordered List Styling */
+        ol {
+            margin: 20px 0;
+            padding-left: 20px;
+            color: #ffffff; /* White color for list items */
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #3498db; /* Header border color */
+            padding: 10px;
+            text-align: left;
+        }
+        
+        /* Styling for even table rows */
+        tr:nth-child(even) {
+            background-color: #1c1c1c; /* Darker gray for even rows */
+        }
+
+        /* Image Styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border: 2px solid #3498db; /* Blue border for images */
+            border-radius: 10px;
+        }
+
+        /* Form Styling */
+        form {
+            background-color: #222; /* Dark gray form background */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Light shadow */
+        }
+
+        /* Input Fields Styling */
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #bdc3c7; /* Light border color */
+            border-radius: 5px;
+            background-color: #333; /* Dark gray input background */
+            color: #fff; /* White text */
+        }
+
+        /* Placeholder Text Color */
+        ::placeholder {
+            color: #aaa; /* Light gray placeholder text */
+        }
+
+        /* Button Styling */
+        button {
+            background-color: #3498db; /* Blue button */
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+        button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        /* Legend Styling for Fieldset */
+        fieldset {
+            border: 1px solid #3498db; /* Blue border for fieldsets */
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #222; /* Dark background for fieldsets */
+        }
+
+        /* Legend Text Color */
+        legend {
+            color: #fff; /* White legend text */
+        }
+    </style>  
+</head>  
+<body>  
+
+    <!-- Ordered list with Roman numerals -->  
+    <h2>Ordered List</h2>  
+    <ol type="I">  
+        <li>boys</li>  
+        <li>girls</li>  
+        <li>boys girls</li>  
+        <li>girls boys</li>  
+        <li>boys boys</li>  
+    </ol>  
+
+    <!-- External Image from Pexels -->  
+    <h2>Image</h2>  
+    <img src="https://images.pexels.com/photos/30600496/pexels-photo-30600496.jpeg" alt="Descriptive Alt Text" width="600" height="400"/>  
+
+    <!-- Table of Contacts -->  
+    <h2>Contact List</h2>  
+    <table>  
+        <tr>  
+            <th>Name</th>  
+            <th>Address</th>  
+            <th>Mobile</th>  
+            <th>Email</th>  
+        </tr>  
+        <tr>  
+            <td>John Ouma</td>
+            <td>123 karatasi, dagorethi</td>  
+            <td>(254) 77123-4567</td>  
+            <td>john.ouma@example.com</td>  
+        </tr>  
+        <tr>  
+            <td>obed ongiti</td>  
+            <td>456 Oak way, kenyatta ave</td>  
+            <td>(254) 76234-5678</td>  
+            <td>obed.ongiti@example.com</td>  
+        </tr>  
+        <tr>  
+            <td>Mike mmoja</td>  
+            <td>789 githurai way, rongai</td>  
+            <td>(254) 78345-6789</td>  
+            <td>mike.mmoja@example.com</td>  
+        </tr>  
+        <tr>  
+            <td>Emily muthoni</td>  
+            <td>321 Mapendo way, kahawa wendani</td>  
+            <td>(254) 7456-78950</td>  
+            <td>emily.muthoni@example.com</td>  
+        </tr>  
+        <tr>  
+            <td>Chris mwembe</td>  
+            <td>654 mabombe way, westlands</td>  
+            <td>(254) 7567-8901</td>  
+            <td>chris.mwembe@example.com</td>  
+        </tr>  
+    </table>  
+
+    <!-- Registration Form -->  
+    <h2>Registration Form</h2>  
+    <form action="#" method="post">  
+        <label for="name">Name:</label>  
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>  
+
+        <label for="email">Email:</label>  
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>  
+
+        <label for="password">Password:</label>  
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>  
+
+        <label for="date">Date of Birth:</label>  
+        <input type="date" id="date" name="date" required>  
+
+        <label for="gender">Gender:</label>  
+        <input type="radio" id="male" name="gender" value="male" required>  
+        <label for="male">Male</label>  
+        <input type="radio" id="female" name="gender" value="female">  
+        <label for="female">Female</label>  
+
+        <label for="country">Country:</label>  
+        <select id="country" name="country" required>  
+            <option value="">Select a country</option>  
+            <option value="KE">kenya</option>  
+            <option value="UG">uganda</option>  
+            <option value="TZ">tanzania</option>  
+        </select>  
+
+        <fieldset>  
+            <legend>Interests:</legend>  
+            <input type="checkbox" id="interest1" name="interests" value="sports">  
+            <label for="interest1">Sports</label>  
+            <input type="checkbox" id="interest2" name="interests" value="music">  
+            <label for="interest2">Music</label>  
+            <input type="checkbox" id="interest3" name="interests" value="art">  
+            <label for="interest3">Art</label>  
+        </fieldset>  
+
+        <button type="submit">Register</button>  
+    </form>  
+    
+</body>  
+</html>  
