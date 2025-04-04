@@ -1,6 +1,6 @@
 # Obed Magori's Portfolio
 
-![Header Image](path/to/your/header-image.jpg)
+![Header Image](https://www.pexels.com/photo/black-laptop-computer-turned-on-showing-computer-codes-177598/)
 
 Welcome to my personal portfolio! I am **Obed Magori**, a passionate software developer specializing in creating digital experiences that matter.
 
