@@ -1,5 +1,7 @@
 # Obed Magori's Portfolio
 
+![Header Image](path/to/your/header-image.jpg)
+
 Welcome to my personal portfolio! I am **Obed Magori**, a passionate software developer specializing in creating digital experiences that matter.
 
 ## About Me
@@ -29,14 +31,16 @@ Currently studying at **Kenyatta University** (First Year)
 
 ### Project 1: Styling an HTML file with CSS
 - **Category:** HTML and CSS
-- **Description:** This project was an assignment from Power Learn project Week 3 that required designing an HTML page using CSS to enhance understanding of HTML and CSS.
+- **Description:** This project was an assignment from Power Learn Project Week 3 that required designing an HTML page using CSS to enhance understanding of HTML and CSS.
 - **Tech Used:** HTML, CSS
+- **Live Demo:** [View Live Project](#)
 - **GitHub Link:** [View on GitHub](https://github.com/Lupinobed/project1/blob/master/git.html)
 
 ### Project 2: Simple Calculator
 - **Category:** Python
-- **Description:** I created a simple calculator using Python and was excited to do so. Python's syntax is easy to understand. Thank you Power Learn Project!
+- **Description:** I created a simple calculator using Python and was excited to do so. Python's syntax is easy to understand. Thank you, Power Learn Project!
 - **Tech Used:** Python
+- **Live Demo:** [View Live Project](#)
 - **GitHub Link:** [View on GitHub](https://github.com/Lupinobed/project1/blob/master/simple%20calculator)
 
 ## Get In Touch
