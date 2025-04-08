@@ -1,0 +1,68 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Responsive Layout</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+        }  
+
+        nav {  
+            display: flex; /* Flexbox for navigation */  
+            justify-content: space-around;  
+            background-color: #333;  
+            padding: 10px;  
+        }  
+
+        nav a {  
+            color: white;  
+            text-decoration: none;  
+        }  
+
+        .container {  
+            display: grid; /* CSS Grid for content */  
+            grid-template-columns: repeat(3, 1fr);  
+            padding: 20px;  
+        }  
+
+        .image-container {  
+            grid-column: span 3; /* Make the image span across all columns */  
+            text-align: center;  
+        }  
+
+        img {  
+            width: 100%; /* Make image responsive */  
+            height: auto;  
+        }  
+
+        @media (max-width: 768px) {  
+            .container {  
+                grid-template-columns: 1fr; /* Stack content on small screens */  
+            }  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<nav>  
+    <a href="#home">Home</a>  
+    <a href="#about">About</a>  
+    <a href="#services">Services</a>  
+    <a href="#contact">Contact</a>  
+</nav>  
+
+<div class="container">  
+    <div class="image-container">  
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Mountain Landscape">  
+    </div>  
+    <div>Content 1</div>  
+    <div>Content 2</div>  
+    <div>Content 3</div>  
+</div>  
+
+</body>  
+</html>  
